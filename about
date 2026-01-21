@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Chilla Gorillas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>About Us</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="team.html">Team</a>
+  <a href="outreach.html">Outreach</a>
+</nav>
+
+<section class="content">
+  <p>
+    Chilla Gorillas is a FIRST Tech Challenge robotics team dedicated
+    to innovation, collaboration, and learning through hands-on engineering.
+  </p>
+
+  <p>
+    Competing in the FTC DECODE season, we tackle challenges involving
+    robot design, autonomous programming, driver control, and strategic gameplay.
+  </p>
+
+  <p>
+    Guided by the FIRST values of Gracious Professionalism® and Coopertition®,
+    we strive to grow as engineers and leaders.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Chilla Gorillas FTC</p>
+</footer>
+
+</body>
+</html>

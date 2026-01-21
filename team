@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Team | Chilla Gorillas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>Meet the Team</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="team.html">Team</a>
+  <a href="outreach.html">Outreach</a>
+</nav>
+
+<section class="content">
+  <h2>Subteams</h2>
+  <ul>
+    <li><strong>Mechanical:</strong> Design, fabrication, and assembly</li>
+    <li><strong>Programming:</strong> Autonomous & driver control (Java)</li>
+    <li><strong>Design:</strong> CAD, prototyping, and iteration</li>
+    <li><strong>Outreach:</strong> Community engagement and events</li>
+  </ul>
+
+  <p>
+    Each member plays a critical role in building a competitive and
+    well-rounded FTC robot.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Chilla Gorillas FTC</p>
+</footer>
+
+</body>
+</html>

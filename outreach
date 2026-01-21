@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Outreach | Chilla Gorillas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>Outreach & Community</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="team.html">Team</a>
+  <a href="outreach.html">Outreach</a>
+</nav>
+
+<section class="content">
+  <p>
+    Outreach is a core part of our mission. We work to spread excitement
+    about robotics and STEM education.
+  </p>
+
+  <ul>
+    <li>Demonstrations at schools and community events</li>
+    <li>Mentoring younger robotics teams</li>
+    <li>Promoting FIRST values</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2026 Chilla Gorillas FTC</p>
+</footer>
+
+</body>
+</html>

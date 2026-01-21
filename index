@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chilla Gorillas | FTC DECODE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>Chilla Gorillas 🦍</h1>
+  <p>FIRST Tech Challenge • DECODE</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="team.html">Team</a>
+  <a href="outreach.html">Outreach</a>
+</nav>
+
+<section class="hero">
+  <h2>Engineering the Future</h2>
+  <p>
+    We are the Chilla Gorillas, a FIRST Tech Challenge robotics team
+    competing in the DECODE season. We design, build, and program robots
+    while promoting STEM in our community.
+  </p>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h3>🤖 FTC DECODE</h3>
+    <p>
+      DECODE challenges teams to solve complex engineering problems
+      through innovation, teamwork, and strategy.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>🧠 Engineering</h3>
+    <p>
+      From CAD and fabrication to Java programming and control systems,
+      our team develops real-world engineering skills.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>🌍 Outreach</h3>
+    <p>
+      We inspire younger students and our community by sharing robotics
+      and STEM education.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Chilla Gorillas FTC • Built with GitHub Pages</p>
+</footer>
+
+</body>
+</html>

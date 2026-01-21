@@ -7,11 +7,16 @@
 </head>
 <body>
 
-<header>
-  <h1>Chilla Gorillas 🦍</h1>
-  <p>FIRST Tech Challenge • DECODE</p>
+<!-- HERO HEADER -->
+<header class="main-header">
+  <div class="header-content">
+    <h1>Chilla Gorillas 🦍</h1>
+    <p>San Rafael High School • California</p>
+    <p class="subtitle">FIRST Tech Challenge • DECODE</p>
+  </div>
 </header>
 
+<!-- NAVIGATION -->
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -19,43 +24,67 @@
   <a href="outreach.html">Outreach</a>
 </nav>
 
-<section class="hero">
-  <h2>Engineering the Future</h2>
+<!-- INTRO SECTION -->
+<section class="intro">
+  <h2>Who We Are</h2>
   <p>
-    We are the Chilla Gorillas, a FIRST Tech Challenge robotics team
-    competing in the DECODE season. We design, build, and program robots
-    while promoting STEM in our community.
+    The <strong>Chilla Gorillas</strong> are a FIRST Tech Challenge robotics team
+    from <strong>San Rafael High School</strong> in California.
+    We design, build, and program competitive robots while developing
+    engineering, leadership, and teamwork skills.
   </p>
 </section>
 
-<section class="cards">
-  <div class="card">
+<!-- FEATURE HIGHLIGHTS -->
+<section class="highlights">
+  <div class="highlight">
     <h3>🤖 FTC DECODE</h3>
     <p>
-      DECODE challenges teams to solve complex engineering problems
-      through innovation, teamwork, and strategy.
+      In the DECODE season, teams are challenged to solve complex
+      engineering problems through robot design, autonomous coding,
+      and strategic gameplay.
     </p>
   </div>
 
-  <div class="card">
-    <h3>Engineering</h3>
+  <div class="highlight">
+    <h3>Engineering Skills</h3>
     <p>
-      From CAD and fabrication to Java programming and control systems,
-      our team develops real-world engineering skills.
+      Our team gains hands-on experience in CAD, fabrication,
+      Java programming, control systems, and iterative design.
     </p>
   </div>
 
-  <div class="card">
-    <h3>Outreach</h3>
+  <div class="highlight">
+    <h3>Community Impact</h3>
     <p>
-      We inspire younger students and our community by sharing robotics
-      and STEM education.
+      We promote STEM education through outreach, mentorship,
+      and demonstrations in our local community.
     </p>
   </div>
 </section>
 
+<!-- SCHOOL PRIDE SECTION -->
+<section class="school">
+  <h2>Proudly Representing San Rafael High School</h2>
+  <p>
+    As students of San Rafael High School, we strive to represent
+    our school with excellence, professionalism, and innovation
+    both on and off the competition field.
+  </p>
+</section>
+
+<!-- CALL TO ACTION -->
+<section class="cta">
+  <h2>Follow Our Journey</h2>
+  <p>
+    From kickoff to competition day, we document our progress,
+    challenges and successes throughout the FTC season.
+  </p>
+</section>
+
+<!-- FOOTER -->
 <footer>
-  <p>© 2026 Chilla Gorillas FTC • Built with GitHub Pages</p>
+  <p>© 2026 Chilla Gorillas FTC • San Rafael High School</p>
 </footer>
 
 </body>

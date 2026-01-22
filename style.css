@@ -3,17 +3,20 @@ body {
   background-color: black;
   color: white; /* default text becomes white */
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 /* Navigation bar */
 nav {
   background-color: #000; /* black nav */
   border-bottom: 4px solid #e60000; /* red line */
+  text-align: center;
 }
 
 nav a {
   color: #e60000; /* red nav links */
   text-decoration: none;
+  text-align: center;
 }
 
 /* Buttons */
@@ -23,6 +26,7 @@ button, .btn {
   border: none;
   padding: 8px 16px;
   cursor: pointer;
+  text-align: center;
 }
 
 button:hover, .btn:hover {
@@ -41,4 +45,5 @@ h1, h2, h3 {
   max-height: 500px;
   object-fit: cover;
   border: 6px solid #e60000; /* red border */
+  text-align: center;
 }

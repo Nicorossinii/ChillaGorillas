@@ -1,122 +1,49 @@
-/* BASIC RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* BODY & FONT */
+/* Overall background & text */
 body {
+  background-color: black;
+  color: white; /* default text becomes white */
   font-family: Arial, sans-serif;
-  background: black;
-  color: white;
-  line-height: 1.6;
 }
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-}
-
-/* HEADER & NAV */
-.site-header {
-  background: black;
-  padding: 10px 0;
-  border-bottom: 4px solid #e60000;
-}
-
-.logo {
-  max-width: 180px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
+/* Navigation bar */
 nav {
-  display: inline-block;
-  float: right;
+  background-color: #000; /* black nav */
+  border-bottom: 4px solid #e60000; /* red line */
 }
 
-.nav-list {
-  list-style: none;
-}
-
-.nav-list li {
-  display: inline;
-  margin-left: 20px;
-}
-
-.nav-list a {
-  color: #e60000;
+nav a {
+  color: #e60000; /* red nav links */
   text-decoration: none;
-  font-weight: bold;
 }
 
-.nav-list a:hover {
+/* Buttons */
+button, .btn {
+  background: #e60000; /* red */
   color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
 }
 
-/* HERO SECTION */
-.hero {
-  text-align: center;
-  padding: 30px 0;
-  background: #111;
+button:hover, .btn:hover {
+  background: #b30000; /* darker red on hover */
 }
 
-.hero-img {
+/* Headings */
+h1, h2, h3 {
+  color: #e60000; /* red headings */
+}
+
+/* Images */
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.main-hero {
   width: 100%;
-  max-height: 350px;
+  max-height: 500px;
   object-fit: cover;
-  border: 5px solid #e60000;
-}
-
-.hero h1 {
-  font-size: 2.5em;
-  margin-top: 20px;
-  color: #e60000;
-}
-
-.hero p {
-  font-size: 1.2em;
-}
-
-/* SECTIONS */
-.section {
-  padding: 40px 0;
-}
-
-.alt-bg {
-  background: #111;
-}
-
-h2 {
-  color: #e60000;
-  margin-bottom: 15px;
-}
-
-/* EVENTS LIST */
-.event-list {
-  list-style: none;
-}
-
-.event-list li {
-  padding: 8px 0;
-  border-bottom: 1px dashed #444;
-}
-
-/* LINKS */
-a {
-  color: #e60000;
-}
-
-a:hover {
-  color: white;
-}
-
-/* FOOTER */
-.site-footer {
-  text-align: center;
-  padding: 20px 0;
-  border-top: 4px solid #e60000;
-  margin-top: 30px;
+  border: 6px solid #e60000; /* red border */
 }

@@ -31,6 +31,7 @@ button:hover, .btn:hover {
 
 /* Headings */
 h1, h2, h3 {
+  ztext-align: center; /* centers the text */
   color: #e60000; /* red headings */
 }
 

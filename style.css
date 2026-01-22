@@ -510,6 +510,144 @@ h3 {
   .content {
     padding: 1.5rem 1rem;
   }
+
+  .sponsors-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .sponsor-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .sponsor-amount {
+    font-size: 1.5rem;
+  }
+
+  .social-link,
+  .sponsor-cta {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* ============================================
+   SPONSORS PAGE
+   ============================================ */
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.sponsor-card {
+  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(230, 0, 0, 0.05) 100%);
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  border: 2px solid var(--border-color);
+  transition: var(--transition);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.sponsor-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-red);
+  box-shadow: 0 8px 25px var(--shadow);
+}
+
+.sponsor-card h3 {
+  color: var(--primary-red);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.sponsor-amount {
+  color: var(--text-white);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sponsor-description {
+  color: var(--text-light);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.sponsor-cta {
+  background: linear-gradient(135deg, rgba(230, 0, 0, 0.1) 0%, var(--bg-dark) 100%);
+  padding: 2.5rem;
+  border-radius: 10px;
+  border: 2px solid var(--primary-red);
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.sponsor-cta h3 {
+  color: var(--primary-red);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.sponsor-cta p {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ============================================
+   SOCIAL LINKS
+   ============================================ */
+
+.social-link {
+  background: linear-gradient(135deg, rgba(230, 0, 0, 0.1) 0%, var(--bg-dark) 100%);
+  padding: 2.5rem;
+  border-radius: 10px;
+  border: 2px solid var(--primary-red);
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.social-link h3 {
+  color: var(--primary-red);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.social-link p {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.instagram-link {
+  display: inline-block;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: var(--text-white);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: 0 4px 15px rgba(188, 24, 136, 0.3);
+  margin-top: 1rem;
+}
+
+.instagram-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(188, 24, 136, 0.5);
+}
+
+.instagram-link span {
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
 }
 
 /* ============================================

@@ -9,40 +9,54 @@ body {
   line-height: 1.6;
 }
 
-/* HEADER */
-.main-header {
-  background: linear-gradient(135deg, #1e2a38, #2f4f6f);
-  color: white;
-  padding: 70px 20px;
-  text-align: center;
+/* Overall background & text */
+body {
+  background-color: black;
+  color: white; /* default text becomes white */
+  font-family: Arial, sans-serif;
 }
 
-.header-content h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  font-size: 1.1rem;
-  opacity: 0.9;
-}
-
-/* NAV BAR */
+/* Navigation bar */
 nav {
-  background: #111;
-  padding: 12px;
-  text-align: center;
+  background-color: #000; /* black nav */
+  border-bottom: 4px solid #e60000; /* red line */
 }
 
 nav a {
-  color: white;
-  margin: 0 18px;
+  color: #e60000; /* red nav links */
   text-decoration: none;
-  font-weight: bold;
 }
 
-nav a:hover {
-  color: #4fd1c5;
+/* Buttons */
+button, .btn {
+  background: #e60000; /* red */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: #b30000; /* darker red on hover */
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #e60000; /* red headings */
+}
+
+/* Images */
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.main-hero {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border: 6px solid #e60000; /* red border */
 }
 
 /* SECTIONS */

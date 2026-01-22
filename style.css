@@ -96,12 +96,12 @@ section {
 
 .cta {
   text-align: center;
-  background-color: #1e2a38;
-  color: white;
+  background-color: #800000;
+  color: black;
 }
 
 footer {
-  background: #111;
+  background: #1c0503;
   color: white;
   text-align: center;
   padding: 15px;

@@ -34,11 +34,6 @@ h1, h2, h3 {
   color: #e60000; /* red headings */
 }
 
-/* Images */
-.logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto 20px auto;
 }
 
 .main-hero {

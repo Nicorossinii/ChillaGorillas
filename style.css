@@ -54,7 +54,7 @@ body {
   border-bottom: 4px solid var(--primary-red);
   position: relative;
   overflow: hidden;
-  min-height: 200px;
+  min-height: 320px;
 }
 
 .hero-banner {

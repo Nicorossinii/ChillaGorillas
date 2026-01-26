@@ -1,8 +1,9 @@
-/* CSS Variables for consistent theming - Team Logo Theme (Red, Blue, Grey) */
+/* CSS Variables for consistent theming - Team Logo Theme */
 :root {
-  --primary-red: #d04c40;
-  --primary-blue: #4d69a5;
-  --icy-blue: #4cbee7;
+  --primary-blue: #486DA4;
+  --dark-red: #771F15;
+  --primary-red: #C03F38;
+  --light-blue: #7BB0DA;
   --dark-charcoal: #4d4e4e;
   --medium-charcoal: #5d5d5d;
   --medium-grey: #8b8b8b;
@@ -15,10 +16,10 @@
   --text-light: #e0e0e0;
   --text-gray: #b0b0b0;
   --border-color: #4d4d4d;
-  --shadow: rgba(208, 76, 64, 0.3);
-  --red-glow: rgba(208, 76, 64, 0.4);
-  --blue-glow: rgba(77, 105, 165, 0.4);
-  --icy-glow: rgba(76, 190, 231, 0.4);
+  --shadow: rgba(192, 63, 56, 0.3);
+  --red-glow: rgba(192, 63, 56, 0.4);
+  --blue-glow: rgba(72, 109, 164, 0.4);
+  --light-blue-glow: rgba(123, 176, 218, 0.4);
   --transition: all 0.3s ease;
 }
 
@@ -103,13 +104,13 @@ body {
   width: auto;
   height: auto;
   z-index: 2;
-  filter: drop-shadow(0 0 10px var(--icy-glow));
+  filter: drop-shadow(0 0 10px var(--light-blue-glow));
   transition: var(--transition);
 }
 
 .header-team-logo:hover {
   transform: scale(1.1);
-  filter: drop-shadow(0 0 15px var(--icy-glow));
+  filter: drop-shadow(0 0 15px var(--light-blue-glow));
 }
 
 .main-header::before {
@@ -119,7 +120,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, var(--icy-glow) 0%, transparent 70%);
+  background: radial-gradient(circle at 50% 50%, var(--light-blue-glow) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -131,8 +132,8 @@ body {
   right: 0;
   bottom: 0;
   background-image: 
-    radial-gradient(circle at 20% 30%, rgba(144, 224, 239, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 70%, rgba(208, 76, 64, 0.1) 0%, transparent 50%);
+    radial-gradient(circle at 20% 30%, rgba(123, 176, 218, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(72, 109, 164, 0.1) 0%, transparent 50%);
   pointer-events: none;
 }
 
@@ -155,25 +156,25 @@ body {
 .team-logo {
   max-width: 200px;
   height: auto;
-  filter: drop-shadow(0 0 20px var(--icy-glow));
+  filter: drop-shadow(0 0 20px var(--light-blue-glow));
   transition: var(--transition);
 }
 
 .team-logo:hover {
   transform: scale(1.05);
-  filter: drop-shadow(0 0 30px var(--icy-glow));
+  filter: drop-shadow(0 0 30px var(--light-blue-glow));
 }
 
 .school-logo {
   max-width: 150px;
   height: auto;
-  filter: drop-shadow(0 0 15px var(--icy-glow));
+  filter: drop-shadow(0 0 15px var(--light-blue-glow));
   transition: var(--transition);
 }
 
 .school-logo:hover {
   transform: scale(1.05);
-  filter: drop-shadow(0 0 25px var(--icy-glow));
+  filter: drop-shadow(0 0 25px var(--light-blue-glow));
 }
 
 .main-header h1 {
@@ -192,12 +193,12 @@ body {
 }
 
 .main-header .subtitle {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-shadow: 0 0 10px var(--icy-glow);
+  text-shadow: 0 0 10px var(--light-blue-glow);
 }
 
 /* Navigation Bar */
@@ -226,13 +227,13 @@ nav {
 .nav-team-logo {
   max-height: 50px;
   width: auto;
-  filter: drop-shadow(0 0 10px var(--icy-glow));
+  filter: drop-shadow(0 0 10px var(--light-blue-glow));
   transition: var(--transition);
 }
 
 .nav-team-logo:hover {
   transform: scale(1.1);
-  filter: drop-shadow(0 0 15px var(--icy-glow));
+  filter: drop-shadow(0 0 15px var(--light-blue-glow));
 }
 
 .nav-links {
@@ -275,13 +276,13 @@ nav a::after {
   height: 3px;
   background-color: var(--primary-blue);
   transition: var(--transition);
-  box-shadow: 0 0 10px var(--icy-glow);
+  box-shadow: 0 0 10px var(--light-blue-glow);
 }
 
 nav a:hover {
   color: var(--text-white);
-  background-color: rgba(208, 76, 64, 0.15);
-  text-shadow: 0 0 8px var(--icy-blue);
+  background-color: rgba(192, 63, 56, 0.15);
+  text-shadow: 0 0 8px var(--light-blue);
 }
 
 nav a:hover::after {
@@ -300,7 +301,7 @@ section {
 }
 
 section h2 {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-size: 2.5rem;
   margin-bottom: 2rem;
   font-weight: 700;
@@ -308,7 +309,7 @@ section h2 {
   letter-spacing: 2px;
   position: relative;
   display: inline-block;
-  text-shadow: 0 0 15px var(--icy-glow);
+  text-shadow: 0 0 15px var(--light-blue-glow);
 }
 
 section h2::after {
@@ -319,8 +320,8 @@ section h2::after {
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background: linear-gradient(90deg, transparent, var(--primary-red), var(--icy-blue), var(--primary-blue), transparent);
-  box-shadow: 0 0 10px var(--icy-glow);
+  background: linear-gradient(90deg, transparent, var(--primary-red), var(--light-blue), var(--primary-blue), transparent);
+  box-shadow: 0 0 10px var(--light-blue-glow);
 }
 
 section h3 {
@@ -354,9 +355,9 @@ section p {
 }
 
 .intro strong {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-weight: 600;
-  text-shadow: 0 0 8px var(--icy-glow);
+  text-shadow: 0 0 8px var(--light-blue-glow);
 }
 
 /* Highlights Section */
@@ -369,7 +370,7 @@ section p {
 }
 
 .highlight {
-  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(208, 76, 64, 0.08) 100%);
+  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(192, 63, 56, 0.08) 100%);
   padding: 2.5rem 2rem;
   border-radius: 10px;
   border: 2px solid var(--border-color);
@@ -381,15 +382,15 @@ section p {
   transform: translateY(-5px);
   border-color: var(--primary-red);
   box-shadow: 0 8px 25px var(--shadow), 0 0 20px var(--red-glow);
-  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(208, 76, 64, 0.15) 100%);
+  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(192, 63, 56, 0.15) 100%);
 }
 
 .highlight h3 {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-size: 1.8rem;
   margin-bottom: 1rem;
   font-weight: 700;
-  text-shadow: 0 0 10px var(--icy-glow);
+  text-shadow: 0 0 10px var(--light-blue-glow);
 }
 
 .highlight p {
@@ -411,7 +412,7 @@ section p {
 
 /* CTA Section */
 .cta {
-  background: linear-gradient(135deg, rgba(208, 76, 64, 0.15) 0%, var(--bg-dark) 100%);
+  background: linear-gradient(135deg, rgba(192, 63, 56, 0.15) 0%, var(--bg-dark) 100%);
   border-radius: 10px;
   margin: 2rem auto;
   padding: 3rem 2rem;
@@ -445,23 +446,23 @@ section p {
   font-size: 1.1rem;
   padding: 1rem;
   margin: 0.5rem 0;
-  background-color: rgba(208, 76, 64, 0.08);
+  background-color: rgba(192, 63, 56, 0.08);
   border-left: 4px solid var(--primary-red);
   border-radius: 5px;
   transition: var(--transition);
 }
 
 .content ul li:hover {
-  background-color: rgba(208, 76, 64, 0.15);
+  background-color: rgba(192, 63, 56, 0.15);
   transform: translateX(5px);
-  border-left-color: var(--icy-blue);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), -4px 0 10px var(--icy-glow);
+  border-left-color: var(--light-blue);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), -4px 0 10px var(--light-blue-glow);
 }
 
 .content ul li strong {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-weight: 600;
-  text-shadow: 0 0 8px var(--icy-glow);
+  text-shadow: 0 0 8px var(--light-blue-glow);
 }
 
 /* Section class for about page */
@@ -563,7 +564,7 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-  background: linear-gradient(135deg, var(--icy-blue) 0%, var(--primary-red) 100%);
+  background: linear-gradient(135deg, var(--light-blue) 0%, var(--primary-red) 100%);
   transform: translateY(-2px);
   box-shadow: 0 6px 15px var(--shadow), 0 0 20px var(--red-glow);
 }
@@ -577,7 +578,7 @@ button:active, .btn:active {
    ============================================ */
 
 h1, h2, h3 {
-  color: var(--icy-blue);
+  color: var(--light-blue);
 }
 
 h1 {
@@ -658,15 +659,15 @@ h3 {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--icy-blue);
-  box-shadow: 0 0 20px var(--icy-glow);
+  border: 3px solid var(--light-blue);
+  box-shadow: 0 0 20px var(--light-blue-glow);
   margin: 1rem;
   transition: var(--transition);
 }
 
 .gorilla-decorative:hover {
   transform: rotate(5deg) scale(1.1);
-  box-shadow: 0 0 30px var(--icy-glow);
+  box-shadow: 0 0 30px var(--light-blue-glow);
 }
 
 /* ============================================
@@ -856,7 +857,7 @@ h3 {
 }
 
 .sponsor-card {
-  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(208, 76, 64, 0.08) 100%);
+  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(192, 63, 56, 0.08) 100%);
   padding: 2.5rem 2rem;
   border-radius: 10px;
   border: 2px solid var(--border-color);
@@ -869,15 +870,15 @@ h3 {
   transform: translateY(-5px);
   border-color: var(--primary-red);
   box-shadow: 0 8px 25px var(--shadow), 0 0 20px var(--red-glow);
-  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(208, 76, 64, 0.15) 100%);
+  background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(192, 63, 56, 0.15) 100%);
 }
 
 .sponsor-card h3 {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-size: 1.8rem;
   margin-bottom: 1rem;
   font-weight: 700;
-  text-shadow: 0 0 10px var(--icy-glow);
+  text-shadow: 0 0 10px var(--light-blue-glow);
 }
 
 .sponsor-amount {
@@ -896,7 +897,7 @@ h3 {
 }
 
 .sponsor-cta {
-  background: linear-gradient(135deg, rgba(208, 76, 64, 0.15) 0%, var(--bg-dark) 100%);
+  background: linear-gradient(135deg, rgba(192, 63, 56, 0.15) 0%, var(--bg-dark) 100%);
   padding: 2.5rem;
   border-radius: 10px;
   border: 2px solid var(--primary-red);
@@ -906,10 +907,10 @@ h3 {
 }
 
 .sponsor-cta h3 {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  text-shadow: 0 0 10px var(--icy-glow);
+  text-shadow: 0 0 10px var(--light-blue-glow);
 }
 
 .sponsor-cta p {
@@ -924,7 +925,7 @@ h3 {
    ============================================ */
 
 .social-link {
-  background: linear-gradient(135deg, rgba(208, 76, 64, 0.15) 0%, var(--bg-dark) 100%);
+  background: linear-gradient(135deg, rgba(192, 63, 56, 0.15) 0%, var(--bg-dark) 100%);
   padding: 2.5rem;
   border-radius: 10px;
   border: 2px solid var(--primary-red);
@@ -934,10 +935,10 @@ h3 {
 }
 
 .social-link h3 {
-  color: var(--icy-blue);
+  color: var(--light-blue);
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  text-shadow: 0 0 10px var(--icy-glow);
+  text-shadow: 0 0 10px var(--light-blue-glow);
 }
 
 .social-link p {
@@ -983,10 +984,11 @@ h3 {
 }
 
 .text-blue {
-  color: var(--icy-blue);
+  color: var(--light-blue);
 }
 
 .mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
+

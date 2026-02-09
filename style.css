@@ -967,3 +967,43 @@ h3 {
 .mt-2 { margin-top: 2rem; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
+
+/* ===== TEAM HALF & HALF LAYOUT ===== */
+
+.team-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.team-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.team-text {
+  flex: 1;
+  min-width: 260px;
+  text-align: left;
+}
+
+.team-img {
+  flex: 1;
+  min-width: 260px;
+  text-align: center;
+}
+
+.team-img img {
+  max-width: 260px;
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid var(--primary-red);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: var(--transition);
+}
+
+.team-img img:hover {
+  transform: scale(1.05);
+}

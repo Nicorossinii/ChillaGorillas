@@ -1012,7 +1012,8 @@ h3 {
   position: relative;
   width: 100%;
   max-width: 800px;
-  margin: auto;
+  margin: 40px auto;
+  text-align: center;
 }
 
 .video-container iframe {
